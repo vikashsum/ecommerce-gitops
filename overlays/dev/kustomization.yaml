@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: ecommerce-dev
+
+resources:
+  - ../../base
+
+images:
+  - name: 303164492950.dkr.ecr.ap-south-1.amazonaws.com/ecommerce-devops-backend
+    newTag: 7be7618d9c54abf52dbdb0bfef562aa57236f63e

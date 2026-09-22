@@ -8,4 +8,4 @@ resources:
 
 images:
   - name: 303164492950.dkr.ecr.ap-south-1.amazonaws.com/ecommerce-devops-backend
-    newTag: eeab14916a8661d7a8122b36a313779c6d14ea2c
+    newTag: 6049811fb4ed25cbefdedaee097ed73ef3505319
